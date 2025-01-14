@@ -1,6 +1,68 @@
-#main-section{
-    background-color: rgb(220, 24, 184);
+body {
+    background-color: #f4f4f4;
+}
+
+.resume {
+    background-color: white;
+    width: 214mm;
+    height: 214mm;
+    margin: auto;
+}
+
+.header {
     text-align: center;
     
 
 }
+
+
+.header h1{
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+                
+      
+    
+}
+
+.info svg {
+    margin-right: 5px;
+}
+
+.info p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    
+}
+
+.merge{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+.section h3{
+    border-bottom: black 0.2px solid;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+
+}
+
+.section{
+    padding: 10px;
+}
+
